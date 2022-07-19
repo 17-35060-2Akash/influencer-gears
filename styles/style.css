@@ -1,0 +1,149 @@
+/* Basic fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 80px;
+}
+
+
+
+/* header starts  */
+.header-container {
+    /* position: sticky; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 80px; */
+
+}
+
+.header-title {
+    font-size: 24px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    margin-right: 34px;
+    color: #3A3A3A;
+
+}
+
+.link-options {
+    font-size: 16px;
+}
+
+.font-awsome {
+    font-size: 24px;
+}
+
+
+
+
+/* header ends  */
+
+/* start your journey starts */
+
+.journey-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+
+}
+
+/* .journey-blog,
+.image-blog {
+
+    border: 1px solid black;
+
+} */
+
+.journey-blog {
+    /* margin: 120px; */
+
+}
+
+
+
+.image-blog {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.journey-title {
+    font-size: 52px;
+    margin: -49px 0px;
+
+
+}
+
+.lorem {}
+
+.prebook {
+    background-color: #E02C6D;
+    width: 196px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    text-align: center;
+}
+
+.prebook a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+#circle {
+    position: relative;
+    top: 0px;
+    z-index: 10;
+
+}
+
+#camera {
+    position: absolute;
+    top: 30px;
+    z-index: 20;
+
+
+}
+
+.journey-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+/* start your journey ends */
+
+/* platform links starts */
+
+.platform-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+}
+
+.platform-images {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(235, 231, 231);
+    width: 1110px;
+    height: 110px;
+
+    padding-left: 50px;
+}
+
+
+/* platform links ends */
